@@ -55,11 +55,11 @@ console.log(CalculateTip(billTotal));
 *******************************************/
 
 // Generate a random integer between 1 and 10 (inclusive)
-const generateRandomRengedInt = (min, max) => Math.floor(Math.random() * (max - min) + min);
+const generateRandomRangedInt = (min, max) => Math.floor(Math.random() * (max - min) + min);
 
 // Print the generated random number
 
-console.log(generateRandomRengedInt(1, 11));
+console.log(generateRandomRangedInt(1, 11));
 
 
 
